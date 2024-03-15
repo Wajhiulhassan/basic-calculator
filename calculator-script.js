@@ -8,5 +8,6 @@ function clearScreen() {
 
 function calculate() {
     var result = eval(document.getElementById('screen').value);
+    console.log("This is me Abdul Rehman")
     document.getElementById('screen').value = result;
 }
