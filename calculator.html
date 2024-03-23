@@ -8,9 +8,9 @@
 </head>
 <body>
     <div class="calculator">
-        <input type="text" class="screen" id="screen" disabled>
+        <input type="text" class="screen" id="screen" placeholder="calculate me.." disabled>
         <div class="buttons">
-            <button onclick="clearScreen()">C</button>
+            <button class="Cdel" onclick="clearScreen()">C</button>
             <button onclick="appendToScreen('7')">7</button>
             <button onclick="appendToScreen('8')">8</button>
             <button onclick="appendToScreen('9')">9</button>
@@ -23,10 +23,10 @@
             <button onclick="appendToScreen('2')">2</button>
             <button onclick="appendToScreen('3')">3</button>
             <button onclick="appendToScreen('*')">*</button>
-            <button onclick="appendToScreen('0')">0</button>
             <button onclick="appendToScreen('.')">.</button>
-            <button onclick="calculate()">=</button>
+            <button onclick="appendToScreen('0')">0</button>
             <button onclick="appendToScreen('/')">/</button>
+            <button class= "equal" onclick="calculate()">=</button>
         </div>
     </div>
     <script src="calculator-script.js"></script>

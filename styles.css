@@ -1,15 +1,27 @@
+body {
+    background-color: black;
+
+}
+
 .calculator {
     width: 200px;
     margin: 0 auto;
+    padding: 5px;
     text-align: center;
-    background-color: #6bd28f;
+    background-color: orange;
+    border: 2px solid rgb(253, 244, 244);
+    border-radius: 12px;
 }
 
 .screen {
     width: 100%;
     margin-bottom: 10px;
-    padding: 5px;
-    font-size: 18px;
+    padding: 8px 10px;
+    font-size: 15px;
+    color: white;
+    cursor: pointer;
+    border: none;
+    background: transparent;
 }
 
 .buttons button {
@@ -17,4 +29,16 @@
     height: 40px;
     margin: 2px;
     font-size: 18px;
+    margin: 1px;
+    padding: 6px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.Cdel {
+    background-color: yellow;
+}
+
+.equal {
+    background-color: limegreen;
 }
